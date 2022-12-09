@@ -7,24 +7,13 @@
         --clean: none;
         --cor_castanha: rgb(230, 133, 65);
         --fonte_principal: 'test';
+        --fonte_sub_principal: 'test_2';
     }
 
-*{ padding: 0px; margin: 0px; }
+*{ padding: 0px; margin: 0px; color: white; }
 
+img#logotipo{ position: absolute; left: 18.6%; }
 
+img#bar { position: absolute;  }
 
-
-header{ background-image: url('/images/menus/kobbyolivier_home4.jpg'); position: absolute; height: 80vh; width:100vw; background-repeat:no-repeat; background-position: -8%; }
-
-nav{ height:20px; width:850px; position:absolute; left: 42%; top: 6.5%; }
-
-a{ font-size: 16px; color: var(--branco); text-decoration: var(--clean); font-family:var(--fonte_principal); 
-    line-height:60px; vertical-align: baseline; padding: 0px 20px; font-weight: 500; font-style: normal;}
-
-div#logo{ position: relative; }
-
-div#logo > a > img {  position: absolute; left: 19%; }
-
-
-
-
+a{ font-family: 'test'; text-decoration:none; font-size:16px; font-weight:500; padding: 0px 20px;   }
