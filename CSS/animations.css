@@ -1,3 +1,5 @@
+
+
 /* Começo dos comandos para efeito de transição de images */
 
 .wrapper{ width: 30%; position: absolute; top:55%; }
@@ -15,3 +17,4 @@
 
 .scene-title {  position: absolute;  max-width: 45%; margin: min(40px, 4vw); font-size: 1.25em;  }
 /* Fim dos comandos para efeito de transição de images */
+
