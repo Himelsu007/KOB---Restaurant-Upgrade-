@@ -35,3 +35,21 @@ section.chef { background-color:#271B19;  position: relative;}
 
 .parallax { background-image: url('/images/menus/KOBbyOLIVIER_slideHP-8.jpg'); background-repeat: no-repeat; text-shadow: 1px 1px 0px; background-attachment: fixed; width:100%; 
 background-size:cover;  }
+
+.nav {
+    position: absolute;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.nav a {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.nav a:hover {
+    transform: translateY(-15px);
+}
