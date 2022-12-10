@@ -7,3 +7,4 @@ https://restauranteskob.com/ - Restaurante KOB<br><br>
 <br>
 <br>
 <h1>Desenvolvedores: <br></h1>
+https://github.com/LucasGalarani - <h3>Lucas Galarani</h3>
