@@ -8,11 +8,11 @@
         --clean: none;
         --cor_castanha: #e68541;
         --Raleway:'test';
-        --SemiBoldRaleway:'test_2';
+        --Raleway_italic:'test_2';
         --Merryweather:'test_3';
     }
 
-img#logotipo{ position: absolute; left: 18.6%; }
+img#logotipo{ position: absolute; left:355px; top:63px; }
 
 img#bar { position: absolute; right: 0.4px; }
 
@@ -22,34 +22,24 @@ header { height: 822px; background-image: url(/images/menus/kobbyolivier_home4.j
 
 body { height: 6000px; width:100%; }
 
-nav { position: absolute; left:41.8%; top: 7.4%;}
+nav { position: absolute; left:41.5%; top:136.4px}
 
-section { height:750px; background-color: gray; margin-top:1px;}  /*  To differentiate the sections */
+section { height:750px; background-color: rgb(103, 103, 103);}  /*  To differentiate the sections */
 
 section.chef { background-color:#271B19;  position: relative;}
     section.chef > img { object-fit: cover; position: absolute; left:960px; top:17.2%; margin: auto; border-radius: 10px; }
         section.chef > h2 { font-family:var(--Merryweather); position: absolute; left:352px; bottom:456px; font-size:40px; font-weight:500; }  
 
-.pieta { font-size:16px; font-family: var(--Raleway) , Courier, monospace; line-height: 26px; font-weight:400; position: absolute; left:352px; top:290px;
+.paragrafo_chef { font-size:16px; font-family: var(--Raleway) , Courier, monospace; line-height: 26px; font-weight:400; position: absolute; left:352px; top:290px;
             color: #766A67; padding:0px; vertical-align: baseline; }
 
 .parallax { background-image: url('/images/menus/KOBbyOLIVIER_slideHP-8.jpg'); background-repeat: no-repeat; text-shadow: 1px 1px 0px; background-attachment: fixed; width:100%; 
-background-size:cover;  }
+background-size:cover; }
 
-.nav {
-    position: absolute;
-    transform: translateX(-50%);
-    display: flex;
-}
+#pieta {  position: absolute; top:282px; left:389px; }
+        #pieta > p { font-family: var(--Raleway); font-size: 16px; line-height:22px; font-weight:700; color: #e68541; }
 
-.nav a {
-    list-style: none;
-    display: inline-block;
-    margin: 0 20px;
-    cursor: pointer;
-    transition: 0.5s;
-}
+#pieta_2 {position: absolute; top:326px; left:384.8px; }
+        #pieta_2 > p { font-family: var(--Merryweather); font-size:67px; line-height:75px; font-weight:400; text-decoration:none solid rgb(255, 255, 255);  }
 
-.nav a:hover {
-    transform: translateY(-15px);
-}
+.shadow { border: 1px solid black; width: 50%; height:50%; display:flex; justify-content:center;  }

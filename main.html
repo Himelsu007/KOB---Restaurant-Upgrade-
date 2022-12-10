@@ -18,16 +18,19 @@
     
     <style>
         @font-face {  font-family:'test';  src: url(raleway/Raleway-Medium.ttf) format(truetype);  }
-        @font-face  { font-family:'test_2'; src:url(raleway/Raleway-SemiBold.ttf  ) format(truetype) }
+        @font-face  { font-family:'test_2'; src:url(raleway/Raleway-SemiBoldItalic.ttf ) format(truetype) }
         @font-face  { font-family:'test_3';  src: url(merriweather/Merriweather-Regular.ttf) format(truetype); }
         @font-face  { font-family:'test_4';  src: url(merriweather/Merriweather-Italic.ttf) format(truetype); }
 
     </style>
     <script src="main.js"> </script>
+    
 
 <!-- -----------------------------------------------------------Primeiro bloco ( Background image e logotipo ) ------------------------------------------------------------ -->
 
 <header>
+
+    <img id="logotipo" src="images/logo/KOBbyOliver_logoN3.png" alt="logo">
 
     <nav> 
         <a style="color: var(--cor_castanha) ;" href=""> KOB by Olivier </a>
@@ -36,19 +39,26 @@
         <a href="#"> KOB Porto </a>  
         <a href="#"> Informações e Reservas </a>  
     </nav> 
-    
-    <img id="logotipo" src="images/logo/KOBbyOliver_logoN3.png" alt="logo">
+
+    <div id="pieta"> <p> <span style="font-family:'test_2'; color: var(--cor_castanha);"> Steakhouse </span> de carnes maturadas </p></div>
+
+    <div id="pieta_2"> 
+        <p> Suculentas e deliciosas <br>
+            carnes maturadas, <br>
+            by Olivier
+        </p> 
+    </div>
+
 </header>
 
 <main>
 
 <!-- ----------------------------------------------------------------------Segundo bloco ( Localizações ) -------------------------------------------------------------- -->
 <section class="location">
-    <img id="bar" src="images/icons/home_bar.png" alt=""> <!-- A barra laranja que está antes da primeira section-->
 
+    <img id="bar" src="images/icons/home_bar.png" alt=""> <!-- A barra laranja que está antes da primeira section-->
         <h2> Lisbon </h2>
         <h2> Porto</h2>
-
 </section>
 
 <!-- ----------------------------------------------------------------------Terceiro bloco ( Chef ) -------------------------------------------------------------- -->
@@ -57,7 +67,7 @@
         <img src="images/owner/KOBbyOlivier_Olivier-1.jpg" width="596px" alt="Olivier">
         <h2> Pelas mãos do <br> <span style="font-family:'test_4';" > Chefpreneur </span> Olivier</h2>
 
-        <p class="pieta">
+        <p class="paragrafo_chef">
             Com 22 anos de carreira profissional, o chef Olivier da Costa é já um <br>
             marco na história da restauração em Portugal pela revolução que <br>
             trouxe nos seus espaços, nas tendências e nos conceitos como são <br>
@@ -77,8 +87,10 @@
 
 
 <section class="parallax">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/7PMgquZ1CVQ" title="YouTube video player" frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="shadow">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/7PMgquZ1CVQ" title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 </section>
 
 <!-- ----------------------------------------------------------------------Quinto bloco ( empty ) -------------------------------------------------------------- -->
