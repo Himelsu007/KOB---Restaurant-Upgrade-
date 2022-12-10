@@ -24,7 +24,7 @@ body { height: 6000px; width:100%; }
 
 nav { position: absolute; left:41.8%; top: 7.4%;}
 
-section { height:750px; background-color: gray; }  /*  To differentiate the sections */
+section { height:750px; background-color: gray; margin-top:1px;}  /*  To differentiate the sections */
 
 section.chef { background-color:#271B19;  position: relative;}
     section.chef > img { object-fit: cover; position: absolute; left:960px; top:17.2%; margin: auto; border-radius: 10px; }
