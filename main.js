@@ -1,6 +1,6 @@
 <script type="text/javascript">
 function slide1(){
-document.getElementById('id').src="1.bmp";
+document.getElementById('petisco').src="1.bmp";
 setTimeout("slide2()", 3000)
 document.getElementById('aId').href="link1.html"
 }
