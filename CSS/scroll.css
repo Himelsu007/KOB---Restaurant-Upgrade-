@@ -5,20 +5,3 @@
 ::-webkit-scrollbar-thumb { background-color: #e67b30ca; border-radius: 40px; }
 
 
-.nav {
-    position: absolute;
-    transform: translateX(-50%);
-    display: flex;
-}
-
-.nav a {
-    list-style: none;
-    display: inline-block;
-    margin: 0 20px;
-    cursor: pointer;
-    transition: 0.5s;
-}
-
-.nav a:hover {
-    transform: translateY(-15px);
-}
