@@ -1,0 +1,50 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #0c1024;
+}
+.container {
+	max-width: 1280px;
+	height: 100vh;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.button {
+	width: 200px;
+	padding: 20px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 28px;
+	color: #fff;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+.hover-btn {
+	background-color: #007b8c;
+}
+.hover-btn span {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.hover-btn span::after {
+	position: absolute;
+	content: "\00bb";
+	opacity: 0;
+	top: 0;
+	right: -25px;
+	transition: 0.5s;
+}
+.hover-btn:hover span {
+	padding-right: 25px;
+}
+.hover-btn:hover span::after {
+	opacity: 1;
+	right: 0;
+}
