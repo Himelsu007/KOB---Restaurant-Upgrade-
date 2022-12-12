@@ -16,10 +16,13 @@
 <body>
     
     <style>
-        @font-face {  font-family:'test';  src: url(raleway/Raleway-Medium.ttf) format(truetype);  }
-        @font-face  { font-family:'test_2'; src:url(raleway/Raleway-SemiBoldItalic.ttf ) format(truetype) }
+        @font-face {  font-family:'test';    src: url(raleway/Raleway-Medium.ttf) format(truetype);  }
+        @font-face {  font-family:'pieta';    src: url(raleway/Raleway-Regular.ttf) format(truetype);  }
+        @font-face  { font-family:'test_2';  src:url(raleway/Raleway-SemiBoldItalic.ttf ) format(truetype) }
         @font-face  { font-family:'test_3';  src: url(merriweather/Merriweather-Regular.ttf) format(truetype); }
         @font-face  { font-family:'test_4';  src: url(merriweather/Merriweather-Italic.ttf) format(truetype); }
+        @font-face  { font-family:'test_5';  src: url(merriweather/Merriweather-Bold.ttf) format(truetype); }
+
 
     </style>
     <script src="main.js"> </script>
@@ -57,20 +60,38 @@
 
     <img id="bar" src="images/icons/home_bar.png" alt=""> <!-- A barra laranja que está antes da primeira section-->
 
-    <div id="cf">
-        <img class="bottom" src="/images/menus/KOBbtOlivier_slideHP-5.jpg" />
-        <img class="top" src="/images/menus/KOBbyOlivier_sliderHP-6.jpg" />
+    <div id="cf">  <img class="bottom" src="/images/menus/KOBbyOlivier_sliderHP-6.jpg" />  <img class="top" src="/images/menus/KOBbtOlivier_slideHP-5.jpg" />  </div>
+
+<h2 id="h_location"> 
+    Uma carta variada,<br>
+    com as carnes como <br>
+    protagonistas
+</h2>
+    <div id="location_bar_container">
+        <div id="location_bar"> </div>
     </div>
+
+<p id="p_location">
+    Os restaurantes KOB by Olivier são sofisticadas <br>
+    steakhouses de carnes maturadas. A origem, o corte <br>
+    e a qualidade da carne são elementos chave para <br>
+    uma carta variada e organizada por países e em <br>
+    tempo de maturação.
+</p>
+
+    <button>  <a style="font-size:16px; font-family:'test'; position:relative; bottom:15px;" href="#"> Veja os menus </a> </button> 
+
 </section>
 
 <!-- ----------------------------------------------------------------------Terceiro bloco ( Chef ) -------------------------------------------------------------- -->
 
 <section class="chef" style="height:702px; "  >
+
         <img src="images/owner/KOBbyOlivier_Olivier-1.jpg" width="596px" alt="Olivier">
         <h2> Pelas mãos do <br> <span style="font-family:'test_4';" > Chefpreneur </span> Olivier</h2>
-
+        
         <p class="paragrafo_chef">
-            Com 22 anos de carreira profissional, o chef Olivier da Costa é já um <br>
+            Com 22 anos de carreira profissional, o chef  da Costa é já um <br>
             marco na história da restauração em Portugal pela revolução que <br>
             trouxe nos seus espaços, nas tendências e nos conceitos como são <br>
             os casos das marcas Clássico Beach Bar, Seen by Olivier, Guilty by <br>
@@ -78,6 +99,8 @@
             que cada cliente viva uma experiência e um momento único, sempre <br>
             que entre num espaço com a assinatura by Olivier.
         </p>
+
+        <div id="chef_bar"> </div>
 
         <div class="orange_bar">
             <hr style="background-color:white;">
@@ -89,35 +112,59 @@
 
 
 <section class="parallax">
-    <div class="shadow">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/7PMgquZ1CVQ" title="YouTube video player" frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+
+
 </section>
 
-<!-- ----------------------------------------------------------------------Quinto bloco ( empty ) -------------------------------------------------------------- -->
+<!-- ----------------------------------------------------------------------Quinto bloco ( Steak ) -------------------------------------------------------------- -->
 
-<section>
+<section class="steak">
+
+    <iframe width="560" height="600" src="https://www.youtube.com/embed/7PMgquZ1CVQ" title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>   
+
+<div id="h3_steak_container">
+    <h3> Exclusive by Quim do Talho </h3>
+</div>
+
+    <div id="h_steak_container">
+        <h2> O @quimdotalho <br>
+            traz até ao K.O.B <br>
+            by Olivier três <br>
+            cortes únicos <br>
+            que levamos até <br>
+            à sua mesa.
+        </h2>
+    </div>
 
 
 </section>
 
 <!-- ----------------------------------------------------------------------Sexto bloco ( comidas ) -------------------------------------------------------------- -->
 
-<section>
 
-</section>
-
+<!-- I might need the drinks section here -->
 <!-- ----------------------------------------------------------------------Sétimo bloco ( empty ) -------------------------------------------------------------- -->
 
 <section class="info">
-            <img id="logo_2" src="images/logo/logoKOBbyOlivier_logofooter-2-300x161.png" alt="">
+    
+<img id="logo_2" src="images/logo/logoKOBbyOlivier_logofooter-2-300x161.png" alt="logo_orange">
+
+    <div class="social_container">
+        <a  href="#"> <img id="instagram" src="images/Social media/instagram.png" alt="instagram"> </a>
+        <a  href="#"> <img id="facebook"  src="images/Social media/image.png"  alt="facebook">  </a>
+        <!-- <a  href="#"> <img id="youtube"   src="images/Social media/logo-youtube.jpg"   alt="fouTube">   </a> -->
+    </div>
+
 </section>
 
 <!-- ----------------------------------------------------------------------Oitavo bloco ( empty ) -------------------------------------------------------------- -->
 </main>
 
 <footer>
+
+
 
 </footer>
 
