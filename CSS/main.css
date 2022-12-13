@@ -96,6 +96,20 @@ section.info > h2 { font-family:var(--Merryweather); font-size:20px; font-weight
                 div.two { border-left:1px solid white; height:300px; position: absolute; left:1167px; top:4628px;  }  /* Vertical bar */
                     #logo_2 { position: relative; top:97.7px; left:355px; }
 
+a.phone_container { position:absolute;  left:782px; top:4710px; color:#e68541; font-family:Arial, Helvetica, sans-serif; font-size:16px;}
+a.phone_container_two { position:absolute;  left:1191px; top:4710px; color:#e68541; font-family:Arial, Helvetica, sans-serif; font-size:16px;}
+a.phone_container > p:hover { font-weight:bolder; }
+a.phone_container_two > p:hover { font-weight:bolder; }
+
+
+a.email_container { position:absolute;  left:1192px; top:4740px; color:#e68541; font-family:Arial, Helvetica, sans-serif; font-size:16px;}
+a.email_container_two { position:absolute;  left:785px; top:4740px; color:#e68541; font-family:Arial, Helvetica, sans-serif; font-size:16px;}
+a.email_container_two > p:hover { font-weight:bolder; }
+a.email_container > p:hover { font-weight:bolder; }
+
+address#lisbon { position: absolute; top:4780px; left:802px; color:#C7CCBB;}
+address#porto { position: absolute; top:4780px;  left:1212px; color:#C7CCBB; }
+
 .button_info { position:absolute; left: 801px; top:4852px; font-size: 48px; width: 166px; height:40px; border: 1px solid transparent; border-radius:5px; background-color:#e68541;}
 .button_info:hover { background-color:green; transition: background-color 5s;}
 
