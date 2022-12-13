@@ -33,7 +33,7 @@ nav { position: absolute; left:41.5%; top:136.4px}
 
 .underline {
     background: linear-gradient(0deg, #e68541,#545052 ) no-repeat right bottom / 0 var(--bg-h); transition: background-size 390ms; --bg-h: 100%; }
-        .underline:where(:hover, :focus-visible { background-size: 100% var(--bg-h);  background-position-x: left; width: 20px; }
+        .underline:where:hover, :focus-visible { background-size: 100% var(--bg-h);  background-position-x: left; width: 20px; }
 
 .underline {  padding-bottom:6px;   --bg-h:2px;  }
 
