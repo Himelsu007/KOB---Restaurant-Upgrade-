@@ -11,3 +11,7 @@ https://restauranteskob.com/ - Restaurante KOB<br><br>
 <h3>Himelsu: https://github.com/Himelsu007</h3>
 <h3>Lucas Galarani: https://github.com/LucasGalarani</h3>
 <h3>Luiz : https://github.com/lmgaspa</h3
+
+<h1>Recursos do Site:</h1>
+
+<h4>-Parallax<br>-Menu Interativo<br>-Animações<br>-Responsividade<br>-</h4>
