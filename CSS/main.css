@@ -89,15 +89,22 @@ div#meat_1  { position: relative;   }
 div#meat_2  { position: relative;}
     div#meat_2 > img { position: absolute; width:470px; height:400px; bottom:534px; left:1330px;  border-radius:8px;  }
 
-#steak_bar { width:400px; height:3px; background-color: #e68541; position:absolute; left:710px; top:270px; }
-
+section.info > h2 { font-family:var(--Merryweather); font-size:20px; font-weight:500; }
 
 .info { background-color: #271B19; height:553.5px;  }
-            #logo_2 { position: relative; top:97.7px; left:355px; }
+            div.info_bar { border-left:1px solid white; height:300px; position: absolute; left:760px; top:4628px;  }  /* Vertical bar */
+                div.two { border-left:1px solid white; height:300px; position: absolute; left:1167px; top:4628px;  }  /* Vertical bar */
+                    #logo_2 { position: relative; top:97.7px; left:355px; }
 
-.social_container { position: absolute; left:345px; top:4990px; }
+.button_info { position:absolute; left: 801px; top:4852px; font-size: 48px; width: 166px; height:40px; border: 1px solid transparent; border-radius:5px; background-color:#e68541;}
+.button_info:hover { background-color:green; transition: background-color 5s;}
+
+.button_info_2 { position:absolute; left: 1208px; top:4852px; font-size: 48px; width: 166px; height:40px; border: 1px solid transparent; border-radius:5px; background-color:#e68541;}
+.button_info_2:hover { background-color:green; transition: background-color 5s;}
+
+#AR { margin-left: 355px; padding-top:35px; font-family: var(--Raleway); font-weight:400; color:RGB(204, 204, 204);}
+
+.social_container { position: absolute; left:345px; top:4780px; }
             #instagram { border-radius:50%; width:60px; height:60px; }
                     #facebook  { border-radius:50%; width:60px; height:60px; }
                             /* #youtube   { border-radius:50%; width:60px; height:60px; } */
-
-#AR { margin-left: 355px; padding-top:35px; font-family: var(--Raleway); font-weight: 400; color:RGB(204, 204, 204);}
