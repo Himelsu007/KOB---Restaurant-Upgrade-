@@ -14,4 +14,4 @@ https://restauranteskob.com/ - Restaurante KOB<br><br>
 
 <h1>Recursos do Site:</h1>
 
-<h4>-Parallax<br>-Menu Interativo<br>-Animações<br>-Responsividade<br>-</h4>
+<h4>-Parallax<br>-Menu Interativo<br>-Animações<br>-Responsividade<br>-Sticky Menu</h4>
