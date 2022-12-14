@@ -31,9 +31,12 @@ header { height: 822px; background-image: url(/images/menus/kobbyolivier_home4.j
 
 nav { position: absolute; left:41.5%; top:136.4px}
 
+div#p1 > p > a { display:none;}
+div#p1 > p:hover > a { display:block;}
+
 .underline {
     background: linear-gradient(0deg, #e68541,#545052 ) no-repeat right bottom / 0 var(--bg-h); transition: background-size 390ms; --bg-h: 100%; }
-        .underline:where:hover, :focus-visible { background-size: 100% var(--bg-h);  background-position-x: left; width: 20px; }
+        .underline:where(:hover, :focus-visible) { background-size: 100% var(--bg-h);  background-position-x: left; width: 20px; }
 
 .underline {  padding-bottom:6px;   --bg-h:2px;  }
 
@@ -48,8 +51,9 @@ section.chef { background-color:#271B19;  position: relative;}
 
 div#chef_bar { width: 100px;height: 3px;background: #e68541; position:absolute; top: 276px; left:352px;}
 
-.parallax { background-image: url('/images/menus/KOBbyOLIVIER_slideHP-8.jpg'); background-repeat: no-repeat; text-shadow: 1px 1px 0px; background-attachment: 
-            fixed; width:100%; background-size:cover;  height: 600px;}
+.parallax { background-image: url('/images/menus/KOBbyOLIVIER_slideHP-8.jpg'); background-repeat: no-repeat; text-shadow: 1px 1px 0px; 
+            background-attachment:fixed; width:100%; background-size:cover;  height: 600px; }
+
 section.drinks {background-image:url(/images/Drinks/drinks_background.jpg); background-repeat: no-repeat; background-size: cover; background-attachment:fixed;  height:600px; }
 
 #pieta {  position: absolute; top:282px; left:389px; } 
@@ -58,10 +62,7 @@ section.drinks {background-image:url(/images/Drinks/drinks_background.jpg); back
 #pieta_2 {position: absolute; top:326px; left:384.8px; }
             #pieta_2 > p { font-family: var(--Merryweather); font-size:67px; line-height:75px; font-weight:400; text-decoration:none solid rgb(255, 255, 255);  }
 
-.info { background-color: #271B19; height:553.5px;  }
-            #logo_2 { position: relative; top:97.7px; left:355px; }
-
-footer{ height: 85px; background-color: #271B19; border-top: 1px solid rgba(255,255,255,.1); }
+footer{ height: 55px; background-color: #271B19; border-top: 1px solid rgba(255,255,255,.1); }
 
 .location { height:800px; }
 
@@ -89,21 +90,25 @@ div#meat_1  { position: relative;   }
 div#meat_2  { position: relative;}
     div#meat_2 > img { position: absolute; width:470px; height:400px; bottom:534px; left:1330px;  border-radius:8px;  }
 
+.info { background-color: #271B19; height:553.5px;  }
+
+#logo_2 { position: relative; top:97.7px; left:355px; }
+
 section.info > h2 { font-family:var(--Merryweather); font-size:20px; font-weight:500; }
 
 .info { background-color: #271B19; height:553.5px;  }
-            div.info_bar { border-left:1px solid white; height:300px; position: absolute; left:760px; top:4628px;  }  /* Vertical bar */
-                div.two { border-left:1px solid white; height:300px; position: absolute; left:1167px; top:4628px;  }  /* Vertical bar */
-                    #logo_2 { position: relative; top:97.7px; left:355px; }
+        div.info_bar_three{ border-left:1px solid white; height:300px; position: absolute; left:1574px; top:4628px;  }  /* Vertical bar three */
+        div.info_bar { border-left:1px solid white; height:300px; position: absolute; left:760px; top:4628px;  }  /* Vertical bar two */
+            div.two { border-left:1px solid white; height:300px; position: absolute; left:1167px; top:4628px;  }  /* Vertical bar */
+                #logo_2 { position: relative; top:97.7px; left:355px; }
 
-a.phone_container { position:absolute;  left:782px; top:4710px; color:#e68541; font-family:Arial, Helvetica, sans-serif; font-size:16px;}
-a.phone_container_two { position:absolute;  left:1191px; top:4710px; color:#e68541; font-family:Arial, Helvetica, sans-serif; font-size:16px;}
+a.phone_container { position:absolute;  left:782px; top:4707px; color:#e68541; font-family:Arial, Helvetica, sans-serif; font-size:16px;}
+a.phone_container_two { position:absolute;  left:1191px; top:4707px; color:#e68541; font-family:Arial, Helvetica, sans-serif; font-size:16px;}
 a.phone_container > p:hover { font-weight:bolder; }
 a.phone_container_two > p:hover { font-weight:bolder; }
 
-
-a.email_container { position:absolute;  left:1192px; top:4740px; color:#e68541; font-family:Arial, Helvetica, sans-serif; font-size:16px;}
-a.email_container_two { position:absolute;  left:785px; top:4740px; color:#e68541; font-family:Arial, Helvetica, sans-serif; font-size:16px;}
+a.email_container { position:absolute;  left:1192px; top:4745px; color:#e68541; font-family:Arial, Helvetica, sans-serif; font-size:16px;}
+a.email_container_two { position:absolute;  left:785px; top:4745px; color:#e68541; font-family:Arial, Helvetica, sans-serif; font-size:16px;}
 a.email_container_two > p:hover { font-weight:bolder; }
 a.email_container > p:hover { font-weight:bolder; }
 
@@ -116,9 +121,15 @@ address#porto { position: absolute; top:4780px;  left:1212px; color:#C7CCBB; }
 .button_info_2 { position:absolute; left: 1208px; top:4852px; font-size: 48px; width: 166px; height:40px; border: 1px solid transparent; border-radius:5px; background-color:#e68541;}
 .button_info_2:hover { background-color:green; transition: background-color 5s;}
 
-#AR { margin-left: 355px; padding-top:35px; font-family: var(--Raleway); font-weight:400; color:RGB(204, 204, 204);}
+.orange_bar {  width: 124px;height: 3px;background: #e68541; position:relative; top:-25.8px; left:802px;}
+.segunda {  left:1209px;}
 
-.social_container { position: absolute; left:345px; top:4780px; }
-            #instagram { border-radius:50%; width:60px; height:60px; }
-                    #facebook  { border-radius:50%; width:60px; height:60px; }
-                            /* #youtube   { border-radius:50%; width:60px; height:60px; } */
+
+#AR { margin-left: 725px; padding-top:20px; font-family: var(--Raleway); font-weight:400; color:RGB(204, 204, 204);}
+
+.social_container { position: relative; left:-20px; bottom:-310px; }
+        #instagram { border-radius:50%; width:50px; height:50px; }
+        #instagram:hover { border-radius:50%; width:60px; height:60px; }
+                #facebook  { border-radius:50%; width:50px; height:50px; }
+                #facebook:hover { border-radius:50%; width:60px; height:60px; }
+                        #drama  { position:absolute; left:1637px; top:-387px;}
