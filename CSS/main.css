@@ -40,6 +40,23 @@ div#p1 > p:hover > a { display:block;}
 
 .underline {  padding-bottom:6px;   --bg-h:2px;  }
 
+@keyframes go-back {
+    0% {
+        transform: translateX(100px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.pieta p {
+    animation: go-back 1s;
+}
+
+.pieta_2 p {
+    animation: go-back 1s;
+}
+
 section { height:750px; }
 
 section.chef { background-color:#271B19;  position: relative;}
