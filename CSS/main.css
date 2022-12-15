@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 *{ padding: 0px; margin:0px; color: white ; }
 
 :root
@@ -90,9 +91,9 @@ iframe { position: relative; left: 160px; transform: translate(-20%); border-rad
 section.info > h2 { font-family:var(--Merryweather); font-size:20px; font-weight:500; }
 
 .info { background-color: #271B19; height:553.5px;  }
-        div.info_bar_three{ border-left:1px solid white; height:300px; position: absolute; left:1574px; top:4628px;  }  /* Vertical bar three */
-             div.info_bar { border-left:1px solid white; height:300px; position: absolute; left:760px; top:4628px;  }  /* Vertical bar two */
-                 div.two { border-left:1px solid white; height:300px; position: absolute; left:1167px; top:4628px;  }  /* Vertical bar */
+        div.info_bar_three{ border-left:1px solid white; height:300px; position: absolute; left:1574px; top:4628px;  }  /* Terceira barra vertical  */
+             div.info_bar { border-left:1px solid white; height:300px; position: absolute; left:760px; top:4628px;  }  /* Segunda bara vertical */
+                 div.two { border-left:1px solid white; height:300px; position: absolute; left:1167px; top:4628px;  }  /* Primeira barra vertical */
                         #logo_2 { position: relative; top:97.7px; left:355px; }
 
 a.phone_container { position:absolute;  left:782px; top:4707px; color:#e68541; font-family:Arial, Helvetica, sans-serif; font-size:16px;}
@@ -109,53 +110,21 @@ address#lisbon { position: absolute; top:4780px; left:802px; color:#C7CCBB;}
 address#porto { position: absolute; top:4780px;  left:1212px; color:#C7CCBB; }
 
 .button_info { position:absolute; left:801px; top:4852px; font-size:48px; width:166px; height:40px; border:1px solid transparent; border-radius:5px; background-color:#e68541;}
-.button_info:hover { background-color:green; transition: background-color 5s;}
+        .button_info:hover { background-color:green; transition: background-color 5s;}
 
-.button_info_2 { position:absolute; left: 1208px; top:4852px; font-size: 48px; width: 166px; height:40px; border: 1px solid transparent; border-radius:5px; 
-                background-color:#e68541;}
-.button_info_2:hover { background-color:green; transition: background-color 5s;}
+.button_info_2 { position:absolute; left:1208px; top:4852px; font-size:48px; width:166px; height:40px; border:1px solid transparent; border-radius:5px;background-color:#e68541;}
+        .button_info_2:hover { background-color:green; transition: background-color 5s;}
 
 .orange_bar {  width: 124px;height: 3px;background: #e68541; position:relative; top:-25.8px; left:802px;}
-.segunda {  left:1209px;}
+.segunda { left:1209px; }
 
 .social_container { position: relative; left:-20px; bottom:-310px; }
+
         #instagram { border-radius:50%; width:50px; height:50px; }
         #instagram:hover { border-radius:50%; width:60px; height:60px; }
+
                 #facebook  { border-radius:50%; width:50px; height:50px; }
                 #facebook:hover { border-radius:50%; width:60px; height:60px; }
                         #drama  { position:absolute; left:1637px; top:-387px;}
 
 #AR { margin-left: 750px; padding-top:15px; font-family: var(--Raleway); font-weight:400; color:RGB(204, 204, 204);} 
-
-.to-top{
-	color:white;
-	bottom:15px;
-    left: 1558px;
-	position:relative;
-	border-color:white;
-	transition:all .3s ease-out;
-    border: 2px solid white;
-    border-radius: 150px 150px 150px  150px ;
-}
-.to-top:before{
-	content:'▲';
-	font-size:.9em;
-	position:absolute;
-	top:0;
-	left:50%;
-	margin-left:-6px;
-	border: 2px solid .13em white;
-	border-radius:10em;
-	width:1.4em;
-	height:1.4em;
-	line-height:1.3em;
-	border-color:inherit;
-	transition:transform .5s ease-in;
-}
-.to-top:hover{
-	color:pink;
-	border-color:pink;
-}
-.to-top:hover:before{
-	transform: rotate(360deg);
-}
