@@ -3,7 +3,7 @@
 *{ padding: 0px; margin:0px; color: white ; }
 
 :root
-    {
+{
         --branco: white;
         --preto: black;
         --bgray: #302B2D;
@@ -11,19 +11,19 @@
         --Raleway:'test';
         --Raleway_italic:'test_2';
         --Merryweather:'test_3';
-    }
+}
 
 #cf img { position:absolute;  left:0;  -webkit-transition: opacity 1s ease-in-out; -moz-transition: opacity 1s ease-in-out; 
         -o-transition: opacity 1s ease-in-out; transition: opacity 1s ease-in-out; }
-    #cf {  position:relative; height:281px; width:450px; left: 80px; top:125px; }
-            #cf img.top:hover {   opacity:0;  }
-                    div#cf > img {  border-radius: 15px; }
+#cf {  position:relative; height:281px; width:450px; left: 80px; top:125px; }
+        #cf img.top:hover {   opacity:0;  }
+                div#cf > img {  border-radius: 15px; }
 
 #cf_2 img { position:absolute;  left:0;  -webkit-transition: opacity 1s ease-in-out; -moz-transition: opacity 1s ease-in-out; 
         -o-transition: opacity 1s ease-in-out; transition: opacity 1s ease-in-out; }
 #cf_2 {  position:relative; height:381px; width:550px; left: 713.5px; top:-464px; }
-    #cf_2 img.top:hover {   opacity:0;  }
-            div#cf_2 > img {  border-radius: 15px; }
+        #cf_2 img.top:hover {   opacity:0;  }
+        div#cf_2 > img {  border-radius: 15px; }
 
 img#logotipo{ position: absolute; left:355px; top:63px; } /* Pieta 2 */
 
@@ -39,7 +39,7 @@ div#p1 > p > a { display:none;}
 div#p1 > p:hover > a { display:block;}
 
 .underline {
-    background: linear-gradient(0deg, #e68541,#545052 ) no-repeat right bottom / 0 var(--bg-h); transition: background-size 390ms; --bg-h: 100%; }
+background: linear-gradient(0deg, #e68541,#545052 ) no-repeat right bottom / 0 var(--bg-h); transition: background-size 390ms; --bg-h: 100%; }
         .underline:where(:hover, :focus-visible) { background-size: 100% var(--bg-h);  background-position-x: left; width: 20px; }
 
 .underline {  padding-bottom:6px;  --bg-h:2px;  }
@@ -55,15 +55,15 @@ section.chef { background-color:#271B19;  position: relative;}
 div#chef_bar { width: 100px;height: 3px;background: #e68541; position:absolute; top: 276px; left:352px;}
 
 section.parallax { background-image: url('/images/menus/KOBbyOLIVIER_slideHP-8.jpg'); background-repeat: no-repeat; text-shadow: 1px 1px 0px; 
-            background-attachment:fixed; width:100%; background-size:cover;  height: 600px; }
+        background-attachment:fixed; width:100%; background-size:cover;  height: 600px; }
 
 section.drinks {background-image:url(/images/Drinks/drinks_background.jpg); background-repeat: no-repeat; background-size: cover; background-attachment:fixed;  height:600px; }
 
 #pieta {  position: absolute; top:282px; left:389px; } 
-            #pieta > p { font-family: var(--Raleway); font-size: 16px; line-height:22px; font-weight:700; color: #e68541; }
+        #pieta > p { font-family: var(--Raleway); font-size: 16px; line-height:22px; font-weight:700; color: #e68541; }
 
 #pieta_2 {position: absolute; top:326px; left:384.8px; }
-            #pieta_2 > p { font-family: var(--Merryweather); font-size:67px; line-height:75px; font-weight:400; text-decoration:none solid rgb(255, 255, 255);  }
+        #pieta_2 > p { font-family: var(--Merryweather); font-size:67px; line-height:75px; font-weight:400; text-decoration:none solid rgb(255, 255, 255);  }
 
 footer{ height: 55px; background-color: #271B19; border-top: 1px solid rgba(255,255,255,.1); }
 
@@ -73,20 +73,20 @@ footer{ height: 55px; background-color: #271B19; border-top: 1px solid rgba(255,
 
 #p_location { position: absolute; left:962px; top:1177px; font-size:18px; line-height:26px; font-weight:400; margin:0px 0px 15px; font-family:var(--Raleway); }
         section.location > p#p_location { color:RGB(141, 130, 122); }
-            #location_bar_container{ position: relative; height: 600px; width: 600px; left:900px; bottom: 145px; color: #B99B87 }
+        #location_bar_container{ position: relative; height: 600px; width: 600px; left:900px; bottom: 145px; color: #B99B87 }
                 #location_bar { width:100px; height:3px; background-color: #e68541; position:absolute; left:61px; top:170px; }
 
 button { position:absolute; left: 962px; top:1342px; font-size: 48px; width: 166px; height:48px; border: 1px solid transparent; border-radius:5px; background-color:black; }
-    button > a:hover { color: #e68541; }
+button > a:hover { color: #e68541; }
 
 iframe { position: relative; left: 160px; transform: translate(-20%); border-radius:15px; top: 90px; } 
 
 .steak { position:relative;  background-color:white; height:1000px;  }
-    div#h_steak_container { position: relative;  height: 150px; width:1000px; left:718px; bottom:1080px; }
+div#h_steak_container { position: relative;  height: 150px; width:1000px; left:718px; bottom:1080px; }
         div#h_steak_container > h2 { color:#302B2D; position:relative; font-family:var(--Merryweather); font-size:40px; line-height:50px; font-weight:500; }
 
 .info { background-color: #271B19; height:553.5px;  }
-    #logo_2 { position: relative; top:97.7px; left:355px; }
+#logo_2 { position: relative; top:97.7px; left:355px; }
 
 section.info > h2 { font-family:var(--Merryweather); font-size:20px; font-weight:500; }
 
