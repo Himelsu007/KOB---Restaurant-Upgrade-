@@ -3,7 +3,7 @@
 <h2>Inspirações:</h2><br>
 https://restauranteskob.com/ - Restaurante KOB<br><br>
 
-<p>Projeto feito por 3 desenvolvedores de uso academico<br> incluso sobre direitos autorais de criação,não havendo resposabilidade<br> por comércio deste produto ou por imagem sem contribuições feitas neste projeto</p>
+<p>Projeto feito por 2 desenvolvedores de uso academico<br> incluso sobre direitos autorais de criação,não havendo resposabilidade<br> por comércio deste produto ou por imagem sem contribuições feitas neste projeto</p>
 <br>
 <br>
 <h1>Desenvolvedores: </h1>
